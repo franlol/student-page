@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Lobster');
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    font-family: "Lobster", cursive, sans-serif;
+    background: linear-gradient(to right, #56ccf2, #2f80ed); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+
+nav ul {
+    padding: 10px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a:hover {
+    text-decoration: underline
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-family: "Cabin", sans-serif;
+}
+
+h1 {
+    font-size: 72px;
+    /* background: linear-gradient(to right, #ec2F4B, #F0CB35); */
+    background: linear-gradient(330deg, #38ef7d 0%, #FF8C00 50%, #FF0080 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(3px 3px white);
+  }
