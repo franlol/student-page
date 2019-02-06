@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Lobster');
 
 .container {
+    /* width: 960px; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container-mid {
     width: 960px;
     margin: 0 auto;
 }
@@ -8,7 +14,7 @@
 nav {
     font-family: "Lobster", cursive, sans-serif;
     background: linear-gradient(to right, #56ccf2, #2f80ed); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 400px;
+    height: 260px;
     text-align: center;
     color: white;
 }
@@ -35,9 +41,49 @@ nav a {
 
 h1 {
     font-size: 72px;
-    /* background: linear-gradient(to right, #ec2F4B, #F0CB35); */
-    background: linear-gradient(330deg, #38ef7d 0%, #FF8C00 50%, #FF0080 100%);
+    background: linear-gradient(to right, #ec2F4B, #F0CB35);
+    /* background: linear-gradient(330deg, #00FF3E 0%, #FF8C00 50%, #FF0080 100%); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     filter: drop-shadow(3px 3px white);
-  }
+}
+
+h3 {
+    margin: 0;
+}
+
+#who-i-am {
+    padding: 40px 40px 0;
+    background-color: #16a085;
+}
+
+.span-sections-1 {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    border-width: 0 0 200px 2000px;
+    border-color: transparent transparent #e74c3c transparent;
+    background-color: #16a085;
+}
+
+.span-sections-2 {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    border-width: 0 2000px 200px 0;
+    border-color: transparent transparent #34495e transparent;
+    background-color: #e74c3c;
+}
+
+#projects {
+    background-color: #e74c3c;
+}
+
+footer {
+    background-color: #34495e;
+    margin: 0;
+}
+
+footer ul {
+    margin: 0;
+}
