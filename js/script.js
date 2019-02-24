@@ -1,9 +1,8 @@
 var header = [
-    "i wont be UI designer :)",
-    "i will be full stack developer",
-    "Im Fran, and Im not a Designer."
+    "Im not a Designer.",
+    "Im just a MERN stack developer."
 ];
-var random = Math.floor(Math.random() * 3);
+var random = Math.floor(Math.random() * header.length);
 
 const title = document.getElementById("title");
 
