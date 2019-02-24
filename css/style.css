@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Lobster');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+body {
+    /* overflow: hidden; */
+}
 
 .container {
     /* width: 960px; */
@@ -117,7 +120,7 @@ h3 {
 .span-sections-0 {
     margin: 0;
     padding: 0;
-    border: 1px solid transparent;
+    border: 0px solid transparent;
     border-width: 0 100vw 40px 0;
     border-color: transparent #2f80ed transparent transparent;
     background-color: #93F9B9;
