@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>hi</title>
@@ -12,29 +13,44 @@
     <div class="container">
         <nav>
             <div class="container-mid">
-                <ul>
+                <ul class="navbar-list">
                     <li><a href="">Home</a></li>
                     <li><a href="#who-i-am">Who I am?</a></li>
                     <li><a href="#projects">Some stuff</a></li>
                     <li><a href="#footer">Contact</a></li>
                 </ul>
             </div>
-            <h1>ill be full stack developer</h1>
+            <!-- <h1>ill be full stack developer</h1> -->
+            <h1 id="title"></h1>
         </nav>
     </div>
 
     <section id="who-i-am">
         <div class="container-mid">
-            <div class="container">
-                <h3>Who I am?</h3>
-                <div class="photo">
+            <div class="container who-i-am-container">
+                <div class="who-i-am-photo">
                     <img src="./img/me.jpg" width="380" alt="im a photo">
                 </div>
-                <div class="info">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consequatur nisi laudantium
-                        esse
-                        recusandae sint praesentium quas sunt, velit tempore id assumenda natus placeat, libero iste
-                        voluptatibus expedita doloremque labore.</p>
+                <div class="who-i-am-info">
+                    <h3>Who I am?</h3>
+
+                    <p>Dessert muffin halvah ice cream I love biscuit jujubes. Tiramisu jelly beans tart cotton candy
+                        chocolate cake. Sesame snaps I love bear claw apple pie biscuit sweet. Apple pie dragée dragée
+                        gummi bears brownie croissant powder.
+
+                        Dragée I love I love lemon drops soufflé gummies marshmallow I love. Fruitcake marshmallow
+                        fruitcake bonbon I love bear claw. Tootsie roll jujubes icing oat cake cheesecake cookie carrot
+                        cake croissant tiramisu.
+
+                        Wafer chupa chups sesame snaps pudding chupa chups cotton candy jelly. I love cheesecake lemon
+                        drops carrot cake gummies sugar plum I love halvah. Danish topping macaroon.
+
+                        Muffin I love chupa chups cotton candy icing pie pudding bear claw. Fruitcake macaroon candy
+                        canes icing lollipop croissant sweet. Pie I love tart wafer.
+
+                        Fruitcake liquorice tootsie roll apple pie tiramisu sweet brownie. Jujubes marshmallow brownie
+                        bonbon candy canes I love I love muffin apple pie. Cookie biscuit carrot cake cake tiramisu I
+                        love.</p>
                 </div>
             </div>
         </div>
@@ -74,8 +90,8 @@
     </section>
 
     <div class="container">
-            <div class="span-sections-2"></div>
-        </div>
+        <div class="span-sections-2"></div>
+    </div>
 
     <footer id="footer">
         <div id="footer-info1">
@@ -100,6 +116,8 @@
             </form>
         </div>
     </footer>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
